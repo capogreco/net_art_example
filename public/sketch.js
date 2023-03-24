@@ -3,10 +3,11 @@ document.body.style.overflow = `hidden`
 
 function setup () {
    createCanvas (innerWidth, innerHeight)
-   noLoop ()
-   noStroke ()
    fill (`deeppink`)
    rectMode (CENTER)
+   noStroke ()
+   noLoop ()
+
 }
 
 function  draw () {
